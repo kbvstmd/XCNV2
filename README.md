@@ -3,25 +3,25 @@
  X-CNV calculates a meta-voting prediction (MVP) score to quantitatively evaluate disease-causing probability. It consists of the most comprehensive CNV data and annotations by integrating various publicly available genetic variant repositories. The features covering the genomics, genome region, variation types, and population genetics properties are taken into account to boost the prediction power. More importantly, a meta-voting prediction (MVP) score is proposed to measure the CNV pathogenic effect quantitatively, which can be used to determine the CNV pathogenicity. 
 # 2. Requirements
  The local version X-CNV requires two R packages, data.table and xgboost, and Bedtools v2.26.0. If the R packages and bedtools cannot be installed automatically, users can install them manually. The executable file of bedtools should be placed in ./tools/. 
-## 3. Installation
+# 3. Installation
 ```bash
 git clone https://github.com/kbvstmd/XCNV.git
 sh Install.sh
 ```
-## 4. Usage and example
-### Usage:
+# 4. Usage and example
+## Usage:
 ```bash
 ./bin/XCNV prefix.bed
 ```
 The output filename: prefix.output.csv
 
-### Example:
+## Example:
 ```bash
 ./bin/XCNV ./example_data/1.beds
 ```
 The results can be seen in the 1.output.csv
 
-## 5. Input & output
+# 5. Input & output
 Input file format (The columns are separated by TAB key and the header is not required): <br><br>
 
 2   2222999 3000222 gain <br>
