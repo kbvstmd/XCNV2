@@ -5,7 +5,7 @@
  The local version X-CNV requires two R packages, data.table and xgboost, and Bedtools v2.26.0. If the R packages and bedtools cannot be installed automatically, users can install them manually. The executable file of bedtools should be placed in ./tools/. 
 ## 3. Installation
 ```bash
-git clone xx
+git clone https://github.com/kbvstmd/XCNV.git
 sh Install.sh
 ```
 ## 4. Usage and example
