@@ -11,13 +11,13 @@ sh Install.sh
 ## 4. Usage and example
 ### Usage:
 ```bash
-./bin/XCNV ./example_data/1.beds
+./bin/XCNV prefix.bed
 ```
 The output filename: prefix.output.csv
 
 ### Example:
 ```bash
-./bin/XCNV prefix.bed
+./bin/XCNV ./example_data/1.beds
 ```
 The results can be seen in the 1.output.csv
 
