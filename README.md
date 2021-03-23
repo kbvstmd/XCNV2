@@ -6,6 +6,7 @@
 # 3. Installation
 ```bash
 git clone https://github.com/kbvstmd/XCNV.git
+cd XCNV
 sh Install.sh
 ```
 # 4. Usage and example
