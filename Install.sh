@@ -4,7 +4,7 @@ if [ -f "./data/CDTS_percentile.txt" ];then
 	echo "file exists!"
 	else
 	rm -f ./data/CDTS_percentile.txt
-    wget http://119.3.41.228:8080/XCNV/data/CDTS_percentile.txt.gz -O ./data/CDTS_percentile.txt.gz
+    wget -c http://119.3.41.228:8080/XCNV/data/CDTS_percentile.txt.gz -O ./data/CDTS_percentile.txt.gz
     gunzip ./data/CDTS_percentile.txt.gz
   fi
   else
@@ -17,7 +17,7 @@ if [ -f "./data/hg19_ljb26_all_converted.vcf" ];then
 	echo "file exists!"
 	else
 	rm -f ./data/hg19_ljb26_all_converted.vcf
-	wget http://119.3.41.228:8080/XCNV/data/hg19_ljb26_all_converted.vcf.gz -O ./data/hg19_ljb26_all_converted.vcf.gz
+	wget -c http://119.3.41.228:8080/XCNV/data/hg19_ljb26_all_converted.vcf.gz -O ./data/hg19_ljb26_all_converted.vcf.gz
 	gunzip ./data/hg19_ljb26_all_converted.vcf.gz
   fi
   else
