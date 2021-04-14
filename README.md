@@ -18,7 +18,7 @@ The output filename: prefix.output.csv
 
 ## Example:
 ```bash
-./bin/XCNV ./example_data/1.beds
+./bin/XCNV ./example_data/1.bed
 ```
 The results can be seen in the 1.output.csv
 
